@@ -19,7 +19,7 @@ function addBookToLib(title, author, pages, read){
     displayBooks();
 }
 
-Book.prototype.toggleRead = () => {
+Book.prototype.toggleRead = function () {
     this.read = !this.read;
 };
 

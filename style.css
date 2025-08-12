@@ -5,4 +5,56 @@
 
 body {
     font-family: "Libertinus Sans", sans-serif;
+    background-color: #FCF5C7;
 }
+
+h1 {
+    text-align: center;
+    color: #4C3B4D;
+}
+
+.newBookBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+#newBook {
+    padding: 12px;
+    color: #786F52;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #F4978E;
+    border: 2px solid #F08080;
+    border-radius: 10px;
+    cursor: pointer;
+}  
+
+.book-card {
+    text-align: center;
+    background-color: #F0E6D2;
+    border: 1px solid #4C3B4D;
+    border-radius: 10px;
+    padding: 18px;
+    margin: 20px auto;
+    width: 50%;
+    max-width: 600px;
+} 
+
+.toggleBtn, .removeBtn {
+    padding: 6px;
+    color: #786F52;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: #F4978E;
+    border: 2px solid #F08080;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.toggleBtn {
+    margin-right: 15px;
+}
+
